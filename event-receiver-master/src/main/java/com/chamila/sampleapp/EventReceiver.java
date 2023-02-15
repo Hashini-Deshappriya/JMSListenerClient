@@ -80,7 +80,7 @@ public class EventReceiver implements MessageListener {
     private SSLContext createSSLContext(){
         try{
             KeyStore keyStore = KeyStore.getInstance("JKS");
-            keyStore.load(new FileInputStream("/home/hashini/BNY_API_Segregration/setup/wso2am-3.2.0+1668439626961.full/wso2am-3.2.0_node1/repository/resources/security/wso2carbon.jks"),"wso2carbon".toCharArray());
+            keyStore.load(new FileInputStream("/home/hashini/setup/wso2am-3.2.0+1668439626961.full/wso2am-3.2.0_node1/repository/resources/security/wso2carbon.jks"),"wso2carbon".toCharArray());
 
             // Create key manager
             KeyManagerFactory keyManagerFactory = KeyManagerFactory.getInstance("SunX509");

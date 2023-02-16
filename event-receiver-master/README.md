@@ -15,7 +15,7 @@
 
     `mvn compile exec:java -Dexec.mainClass="com.chamila.sampleapp.EventReceiver"`
      
-5. Log in the WSO2 API Manager and do any action (Ex: create an application)
+5. Log in the WSO2 API Manager and do any action (Ex: create an API and publish)
 
 6. You will see a message on the console
 
